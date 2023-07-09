@@ -98,6 +98,14 @@ li {
   border: 2px solid #93E1D6;
 }
 
+.close{
+  display: none;
+}
+
+.open{
+  display: block;
+}
+
 @media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
