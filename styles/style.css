@@ -19,14 +19,6 @@ body {
   background-color: #fff;
 }
 
-/* global css */
-img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
 a {
   text-decoration: none;
 }
@@ -35,42 +27,87 @@ li {
   list-style: none;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .btn {
   display: inline-block;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 0.5rem 1.5rem;
   margin-top: 0.5rem;
   text-transform: capitalize;
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
-  /* customize */
   background-color: #1c2042;
   color: white;
   border: 2px solid #1c2042;
 }
 
-@media screen and (min-width: 576px) {
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-open {
+  color: #1c2042;
+  background-color: #93E1D6;
+  border: 2px solid #93E1D6;
+}
+
+.modal {
+  width: 30rem;
+  min-height: 20rem;
+  color: #93E1D6;
+  background-color: #028169;
+  border-radius: 14px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,
+      -50%);
+}
+
+.modal-header {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+.modal-title {
+  text-decoration: underline;
+  word-spacing: 6px;
+  margin: 0.5rem auto;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.modal-footer {
+  padding: 1rem;
+  text-align: end;
+}
+
+.btn-close {
+  color: #1c2042;
+  background-color: #93E1D6;
+  border: 2px solid #93E1D6;
+}
+
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops) */
 
-@media (min-width: 991px) {
-}
+@media (min-width: 991px) {}
 
 /* Extra large devices (large desktops) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
