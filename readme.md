@@ -1,12 +1,11 @@
-# Project Name
+# Modal Window
 
-Give your project a meaningful name.
+This project is a simple modal window implementation using HTML, CSS, and JavaScript.
 
 ## Table of Contents
 
 - [Links](#links)
 - [Description](#description)
-- [Screenshot](#screenshot)
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -16,43 +15,42 @@ Give your project a meaningful name.
 
 ## Links
 
-- Solution URL: [GitHub Repository]()
-- Live Demo: [Live Demo URL]()
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/modal-project)
+- Live Demo: [Live Demo URL](https://aruntutter.github.io/modal-project/)
 
 ## Description
 
-Provide a brief description of your project, highlighting its main purpose and features.
-
-## Screenshot
-
-![Alt text]()
+The Modal Window project demonstrates how to create a modal window using HTML, CSS, and JavaScript. The modal window opens and closes when interacting with the "Open Modal" and "Close Modal" buttons. It provides a user-friendly way to display additional content or prompts on a webpage.
 
 ## Demo
 
-Include a link to a live demo of your project, if available. You can use services like GitHub Pages, Netlify, or Heroku to host your project.
+You can see a live demo of the project [here](https://elaborate-smakager-cb4d54.netlify.app).
 
 ## Features
 
-List the main features and functionalities of your project. You can use bullet points or a numbered list.
+- Clicking the "Open Modal" button opens the modal window.
+- Clicking the "Close Modal" button or pressing the Escape key closes the modal window.
+- The modal window displays content with a title and body section.
 
 ## Technologies Used
 
-Mention the technologies, tools, and frameworks used in your project. For example:
-
 - HTML
 - CSS
-- FlexBox
 - JavaScript
-- ES6
 
 ## Usage
 
-Explain how to use your project. You can provide code examples, screenshots, or even GIFs to demonstrate its usage.
+To use the modal window in your project, follow these steps:
+
+1. Include the HTML structure for the modal window in your HTML file.
+2. Link the CSS styles for the modal window to your HTML file.
+3. Add the JavaScript code to handle opening and closing the modal window.
+4. Customize the content of the modal window as needed.
 
 ## What I Learned
 
-Share what you learned while working on this project. You can mention any new concepts, techniques, or insights gained through the development process. This section can be valuable for personal reflection and to showcase your growth as a developer.
+During the development of this project, I learned how to create a modal window using HTML, CSS, and JavaScript. I gained experience in manipulating the DOM, handling events, and managing CSS classes dynamically. This project enhanced my understanding of creating interactive components for web applications.
 
 ## Contributing
 
-Indicate if you're open to contributions and how others can contribute to your project. You can mention things like submitting bug reports, suggesting new features, or submitting pull requests.
+Contributions to this project are welcome. If you have any suggestions, bug reports, or would like to add new features, please open an issue or submit a pull request.
